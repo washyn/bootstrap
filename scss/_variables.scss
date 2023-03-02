@@ -309,17 +309,28 @@ $dark:          $gray-900 !default;
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
-$theme-colors: (
-  "primary":    $primary,
-  "secondary":  $secondary,
-  "success":    $success,
-  "info":       $info,
-  "warning":    $warning,
-  "danger":     $danger,
-  "light":      $light,
-  "dark":       $dark
-) !default;
+// $theme-colors: (
+//   "primary":    $primary,
+//   "secondary":  $secondary,
+//   "success":    $success,
+//   "info":       $info,
+//   "warning":    $warning,
+//   "danger":     $danger,
+//   "light":      $light,
+//   "dark":       $dark
+// ) !default;
 // scss-docs-end theme-colors-map
+
+$theme-colors: (
+    "light":      #dedbda,
+    "dark":       #100c09,
+    "primary":    #91db27,
+    "secondary":  #496f00,
+    "info":       #439e1a,
+    "success":    #24bc00,
+    "warning":    #ffc82e,
+    "danger":     #fc0052,
+);
 
 // scss-docs-start theme-text-variables
 $primary-text-emphasis:   shade-color($primary, 60%) !default;
